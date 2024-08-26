@@ -1,8 +1,9 @@
 //require("dotenv").config();
+const cors = require("cors");
 const express = require("express");
 const app = express();
 const router = require("./routes/router.js");
-const cors = require("cors");
+
 
 // Retrieve port from .env or use default
 const port = 8006;
