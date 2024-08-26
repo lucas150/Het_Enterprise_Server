@@ -9,8 +9,8 @@ router.post("/register", (req, res) => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.EMAIL,
-        pass: process.env.PASSWORD,
+        user: "hetenterprise77@gmail.com",
+        pass: "idyg grfo ldlc pide",
       },
     });
 
