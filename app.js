@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const app = express();
-const router = require("./routes/router.js");
+const router = require("./router/router.js");
 const cors = require("cors");
 
 // Retrieve port from .env or use default
